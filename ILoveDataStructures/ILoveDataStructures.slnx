@@ -3,5 +3,5 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="ILoveDataStructures/ILoveDataStructures.vcxproj" />
+  <Project Path="ILoveDataStructures/ILoveDataStructures.vcxproj" Id="c2af437d-0833-4890-8fe6-e4fd803b9e14" />
 </Solution>
