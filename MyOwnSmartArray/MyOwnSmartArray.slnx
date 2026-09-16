@@ -3,5 +3,5 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="FileIOReview/FileIOReview.vcxproj" Id="55890481-2e2b-47c2-9c97-67c160808fb0" />
+  <Project Path="MyOwnSmartArray/MyOwnSmartArray.vcxproj" />
 </Solution>
