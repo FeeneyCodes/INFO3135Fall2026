@@ -4,7 +4,6 @@ cSmartArray::cSmartArray()
 {
 	//  Allocate the array
 	this->Resize();
-
 }
 
 // Allocate the larger array, copy, delete old one
@@ -34,6 +33,7 @@ void cSmartArray::Resize(void)
 	return;
 }
 
+
 // push_back
 void cSmartArray::AddItem(cPerson newPerson)
 {
@@ -60,5 +60,4 @@ cPerson cSmartArray::GetItemAtIndex(unsigned int index)
 {
 	return this->pData[index];
 }
-
 
