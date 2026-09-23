@@ -142,6 +142,10 @@
     <ClInclude Include="cMyStack.h" />
     <ClInclude Include="cPerson.h" />
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="cMyStack.cpp" />
+    <ClCompile Include="theMain.cpp" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
