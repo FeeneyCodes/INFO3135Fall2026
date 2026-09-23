@@ -1,0 +1,66 @@
+#include "cPerson.h"
+#include <iostream>		// Console
+#include <fstream>		// File IO
+
+#include "cMyLinkedList.h"
+
+int main()
+{
+
+	// Open a file for reading
+	std::ifstream dataFile("yob1967_no_commas.txt");
+
+	if (!dataFile.is_open())
+	{
+		std::cout << "Didn't open file!" << std::endl;
+		return -1;	// Exit with error
+	}
+	else
+	{
+		std::cout << "File is open!" << std::endl;
+	}
+
+	cMyLinkedList myPeople;
+
+	// Put stuff into the stack
+	unsigned int itemsToLoad = 10;
+	for (unsigned int count = 0; count != itemsToLoad; count++)
+	{
+		cPerson tempPerson;
+		dataFile >> tempPerson.Name;
+		dataFile >> tempPerson.Gender;
+		dataFile >> tempPerson.Population;
+		std::cout << "Inserting " << tempPerson.Name << " onto stack..." << std::endl;
+		
+		myPeople.InsertAtCurrent(tempPerson);
+	}
+
+	std::cout << "\nReading from linked list:" << std::endl;
+	
+	// move to the start of the list
+	while (myPeople.MovePrevious())
+	{
+		// Loops until MovePrevious returns false
+	}
+
+
+	//for (unsigned int count = 0; count != 10; count++)
+	do
+	{
+		cPerson tempPerson = myPeople.GetAtCurrent();
+		
+		std::cout << tempPerson.Name << std::endl;
+	}
+	while (myPeople.MoveNext());
+
+
+
+	//cPerson Bob;		// STACK
+	//Bob.Name = "Bob";
+
+	//cPerson* pSally = new cPerson();
+	//pSally->Name = "Sally";
+
+
+	return 0;
+}
