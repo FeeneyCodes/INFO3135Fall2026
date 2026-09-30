@@ -4,8 +4,19 @@
 
 #include "cMyLinkedList.h"
 
+void doSTL(void);
+
 int main()
 {
+
+	int a = 43;
+	int b = 67;
+	int c = a + b;
+	std::cout << "total = " << c << std::endl;
+
+
+
+	doSTL();
 
 	// Open a file for reading
 	std::ifstream dataFile("yob1967_no_commas.txt");
@@ -43,12 +54,33 @@ int main()
 		// Loops until MovePrevious returns false
 	}
 
+	// move current to "Karen"
+	for (unsigned int count = 0; count != 5; count++)
+	{
+		cPerson tempPerson = myPeople.GetAtCurrent();
+
+		std::cout << tempPerson.Name << std::endl;
+
+		myPeople.MoveNext();
+	}
+
+	// Remove the data at the current node
+	// (we are pointing to "Karen" as the current node)
+	myPeople.DeleteAtCurrent();
+
+	std::cout << "---------------------" << std::endl;
+
+	// Move back to the head again
+	while (myPeople.MovePrevious())
+	{
+		// Loops until MovePrevious returns false
+	}
 
 	//for (unsigned int count = 0; count != 10; count++)
 	do
 	{
 		cPerson tempPerson = myPeople.GetAtCurrent();
-		
+
 		std::cout << tempPerson.Name << std::endl;
 	}
 	while (myPeople.MoveNext());
