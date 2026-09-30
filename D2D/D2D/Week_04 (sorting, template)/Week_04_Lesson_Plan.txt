@@ -1,0 +1,9 @@
+Week #4 lesson plan
+- Review linked list (single and double)
+- Review templates (basics)
+- Variations: queue and priority queue
+- Sorting (part 1: non-recursive)
+  - bubble
+  - selection
+  - insertion
+- Big O notation
