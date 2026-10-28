@@ -1,0 +1,20 @@
+template <class T> 
+- Used with functions
+- Used with classes
+
+Only use templates when the data type might change.
+
+1. Replace the type with a letter (often "T", etc.)
+2. Place the code in a header file
+3. Get the NON-templated thing two work:
+   class definition in header  (.h)
+   code in body  (.cpp)
+   (Reminder: don't put code in header UNLESS it's tempalte)
+4. THEN move the code into the header file
+
+
+
+
+
+What is the fastest sort...
+...if it's already in order?
