@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="Songify_F26_Generator_Library.vcxproj" Id="510fcfd5-334e-4229-83d0-3ca5fd041a21" />
+</Solution>

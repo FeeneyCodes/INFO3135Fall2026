@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="cPersonGenerator">
+      <UniqueIdentifier>{fb3279ae-879e-45e6-be9d-bfa46e5782e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cMusicGenerator">
+      <UniqueIdentifier>{dbf376d1-8fce-4d91-a23b-37b878e716f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MersenneTwister">
+      <UniqueIdentifier>{209f599c-f1fc-492c-96f6-35e3070855bf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="cPerson.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cSong.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cPersonGenerator.h">
+      <Filter>cPersonGenerator</Filter>
+    </ClInclude>
+    <ClInclude Include="sCanadianCityInfo.h">
+      <Filter>cPersonGenerator</Filter>
+    </ClInclude>
+    <ClInclude Include="sCanadianCityInfo_Data.h">
+      <Filter>cPersonGenerator</Filter>
+    </ClInclude>
+    <ClInclude Include="cCallbackProgress.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cMusicGenerator.h">
+      <Filter>cMusicGenerator</Filter>
+    </ClInclude>
+    <ClInclude Include="cMersenneTwister.h">
+      <Filter>MersenneTwister</Filter>
+    </ClInclude>
+    <ClInclude Include="cMusicGenerator_Imp.h">
+      <Filter>cMusicGenerator</Filter>
+    </ClInclude>
+    <ClInclude Include="cPersonGenerator_Imp.h">
+      <Filter>cPersonGenerator</Filter>
+    </ClInclude>
+    <ClInclude Include="Songify_F26_Generator_Library.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="cPerson.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cPersonGenerator.cpp">
+      <Filter>cPersonGenerator</Filter>
+    </ClCompile>
+    <ClCompile Include="cCallbackProgress.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cMusicGenerator.cpp">
+      <Filter>cMusicGenerator</Filter>
+    </ClCompile>
+    <ClCompile Include="cMersenneTwister.cpp">
+      <Filter>MersenneTwister</Filter>
+    </ClCompile>
+    <ClCompile Include="cMusicGenerator_Imp.cpp">
+      <Filter>cMusicGenerator</Filter>
+    </ClCompile>
+    <ClCompile Include="cPersonGenerator_Imp.cpp">
+      <Filter>cPersonGenerator</Filter>
+    </ClCompile>
+    <ClCompile Include="Songify_F26_Generator_Library.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

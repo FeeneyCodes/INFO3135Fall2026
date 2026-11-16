@@ -1,21 +1,11 @@
 #include "cPerson.h"
 #include <iostream>		// Console
 #include <fstream>		// File IO
-#include "cSmartArray.h"
-//#include <vector>
+
 
 int main()
 {
-	//std::vector<int> myVec;
-	//for (unsigned int count = 0; count != 1000000000; count++)
-	//{
-	//	myVec.push_back(5728 + count);
-	//}
 
-	//while (!myVec.empty())
-	//{
-	//	myVec.erase(myVec.begin());
-	//}
 
 
 	// Open a file for reading

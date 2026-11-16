@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="cSongifyTesterExerciser">
+      <UniqueIdentifier>{cb0854e2-999a-49bb-ba0d-1247677dc86b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="StudentSolutionFiles %28these point to this folder%29">
+      <UniqueIdentifier>{e3664325-9ec0-442b-b436-faabf01b03a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DataGenerationFiles">
+      <UniqueIdentifier>{565003e1-5fae-47fa-85a6-e195345a7e24}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="theMain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cSongifyTesterExerciser.cpp">
+      <Filter>cSongifyTesterExerciser</Filter>
+    </ClCompile>
+    <ClCompile Include="cLogger.cpp">
+      <Filter>cSongifyTesterExerciser</Filter>
+    </ClCompile>
+    <ClCompile Include="StudentSolutionFiles\cPerson.cpp">
+      <Filter>StudentSolutionFiles %28these point to this folder%29</Filter>
+    </ClCompile>
+    <ClCompile Include="formattingHelperFunctions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cSongifyTesterExerciser_BasicUserTests.cpp">
+      <Filter>cSongifyTesterExerciser</Filter>
+    </ClCompile>
+    <ClCompile Include="cSongifyTesterExerciser_BasicSongTests.cpp">
+      <Filter>cSongifyTesterExerciser</Filter>
+    </ClCompile>
+    <ClCompile Include="cSongifyTesterExerciser_PlaylistTests.cpp">
+      <Filter>cSongifyTesterExerciser</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="cSongifyTesterExerciser.h">
+      <Filter>cSongifyTesterExerciser</Filter>
+    </ClInclude>
+    <ClInclude Include="cLogger.h">
+      <Filter>cSongifyTesterExerciser</Filter>
+    </ClInclude>
+    <ClInclude Include="StudentSolutionFiles\cPerson.h">
+      <Filter>StudentSolutionFiles %28these point to this folder%29</Filter>
+    </ClInclude>
+    <ClInclude Include="StudentSolutionFiles\cSong.h">
+      <Filter>StudentSolutionFiles %28these point to this folder%29</Filter>
+    </ClInclude>
+    <ClInclude Include="StudentSolutionFiles\cSongify.h">
+      <Filter>StudentSolutionFiles %28these point to this folder%29</Filter>
+    </ClInclude>
+    <ClInclude Include="formattingHelperFunctions.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="StudentSolutionFiles\cSongify_EMPTY_IMPLEMENTATION.cpp.7z">
+      <Filter>StudentSolutionFiles %28these point to this folder%29</Filter>
+    </None>
+  </ItemGroup>
+</Project>
